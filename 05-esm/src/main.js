@@ -1,4 +1,4 @@
-import connectToDatabase from "./utils/database.js"
+import connectToDatabase from "./utils/database.mjs"
 
 connectToDatabase("my-database")
 
