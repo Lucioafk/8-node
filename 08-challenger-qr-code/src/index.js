@@ -1,7 +1,6 @@
- import prompt from "prompt";
-
+import prompt from "prompt";
 import mainPrompt from "./prompt/prompt-main.js";
-import createQRcode from "./prompt/prompt-qrcode.js";
+import createQRcode from "./services/qr-code/create.js";
  
  async function main() {
     prompt.get(mainPrompt, async (err, choose) => {
